@@ -1,0 +1,13 @@
+{
+  "name": "java_inheritance",
+  "version": "0.1.0",
+  "description": "java_inheritance",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xudafeng/java_inheritance.git"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "license": "MIT"
+}
