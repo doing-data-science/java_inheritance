@@ -10,8 +10,8 @@ public class JarUtils {
 
 	public static void main(String[] args) {
 		try {
-      String jarFile = System.getProperty("java.home") + "/lib/rt.jar";
-      jarFile = "/opt/android-sdks/platforms/android-23/uiautomator.jar";
+			String jarFile = System.getProperty("java.home") + "/lib/rt.jar";
+			jarFile = "/opt/android-sdks/platforms/android-23/uiautomator.jar";
 			getClassNameByJar(jarFile);
 		} catch (Exception e) {
 			e.printStackTrace();
