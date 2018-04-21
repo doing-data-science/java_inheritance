@@ -1,13 +1,17 @@
 {
   "name": "java_inheritance",
   "version": "0.1.0",
-  "description": "java_inheritance",
+  "description": "java inheritance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xudafeng/java_inheritance.git"
+    "url": "https://github.com/doing-data-science/java_inheritance.git"
   },
   "scripts": {
-    "build": "node ./scripts/build.js"
+    "build": "node ./scripts/build.js",
+    "contributor": "git-contributor"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "git-contributor": "^1.0.8"
+  }
 }
